@@ -1,0 +1,31 @@
+# github.com/davecgh/go-spew v1.1.1
+## explicit
+github.com/davecgh/go-spew/spew
+# github.com/google/uuid v1.6.0
+## explicit
+github.com/google/uuid
+# github.com/jackc/pgx/v5 v5.7.6
+## explicit; go 1.23.0
+github.com/jackc/pgx/v5/internal/iobufpool
+github.com/jackc/pgx/v5/internal/pgio
+github.com/jackc/pgx/v5/pgproto3
+# github.com/jordwest/mock-conn v0.0.0-20180617021051-4896c6bd1641
+## explicit
+github.com/jordwest/mock-conn
+# github.com/kr/text v0.2.0
+## explicit
+# github.com/pmezard/go-difflib v1.0.0
+## explicit
+github.com/pmezard/go-difflib/difflib
+# github.com/rogpeppe/go-internal v1.14.1
+## explicit; go 1.23
+# github.com/stretchr/testify v1.11.1
+## explicit; go 1.17
+github.com/stretchr/testify/assert
+github.com/stretchr/testify/assert/yaml
+# github.com/zolstein/sync-map v0.1.0
+## explicit; go 1.21
+github.com/zolstein/sync-map
+# gopkg.in/yaml.v3 v3.0.1
+## explicit
+gopkg.in/yaml.v3
