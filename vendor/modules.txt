@@ -14,6 +14,47 @@ github.com/jackc/pgx/v5/pgproto3
 github.com/jordwest/mock-conn
 # github.com/kr/text v0.2.0
 ## explicit
+# github.com/pganalyze/pg_query_go/v6 v6.1.0
+## explicit; go 1.14
+github.com/pganalyze/pg_query_go/v6/parser
+github.com/pganalyze/pg_query_go/v6/parser/include
+github.com/pganalyze/pg_query_go/v6/parser/include/postgres
+github.com/pganalyze/pg_query_go/v6/parser/include/postgres/access
+github.com/pganalyze/pg_query_go/v6/parser/include/postgres/archive
+github.com/pganalyze/pg_query_go/v6/parser/include/postgres/catalog
+github.com/pganalyze/pg_query_go/v6/parser/include/postgres/commands
+github.com/pganalyze/pg_query_go/v6/parser/include/postgres/common
+github.com/pganalyze/pg_query_go/v6/parser/include/postgres/datatype
+github.com/pganalyze/pg_query_go/v6/parser/include/postgres/executor
+github.com/pganalyze/pg_query_go/v6/parser/include/postgres/foreign
+github.com/pganalyze/pg_query_go/v6/parser/include/postgres/jit
+github.com/pganalyze/pg_query_go/v6/parser/include/postgres/lib
+github.com/pganalyze/pg_query_go/v6/parser/include/postgres/libpq
+github.com/pganalyze/pg_query_go/v6/parser/include/postgres/mb
+github.com/pganalyze/pg_query_go/v6/parser/include/postgres/nodes
+github.com/pganalyze/pg_query_go/v6/parser/include/postgres/optimizer
+github.com/pganalyze/pg_query_go/v6/parser/include/postgres/parser
+github.com/pganalyze/pg_query_go/v6/parser/include/postgres/partitioning
+github.com/pganalyze/pg_query_go/v6/parser/include/postgres/port
+github.com/pganalyze/pg_query_go/v6/parser/include/postgres/port/atomics
+github.com/pganalyze/pg_query_go/v6/parser/include/postgres/port/win32
+github.com/pganalyze/pg_query_go/v6/parser/include/postgres/port/win32/arpa
+github.com/pganalyze/pg_query_go/v6/parser/include/postgres/port/win32/netinet
+github.com/pganalyze/pg_query_go/v6/parser/include/postgres/port/win32/sys
+github.com/pganalyze/pg_query_go/v6/parser/include/postgres/port/win32_msvc
+github.com/pganalyze/pg_query_go/v6/parser/include/postgres/port/win32_msvc/sys
+github.com/pganalyze/pg_query_go/v6/parser/include/postgres/portability
+github.com/pganalyze/pg_query_go/v6/parser/include/postgres/postmaster
+github.com/pganalyze/pg_query_go/v6/parser/include/postgres/regex
+github.com/pganalyze/pg_query_go/v6/parser/include/postgres/replication
+github.com/pganalyze/pg_query_go/v6/parser/include/postgres/rewrite
+github.com/pganalyze/pg_query_go/v6/parser/include/postgres/storage
+github.com/pganalyze/pg_query_go/v6/parser/include/postgres/tcop
+github.com/pganalyze/pg_query_go/v6/parser/include/postgres/tsearch
+github.com/pganalyze/pg_query_go/v6/parser/include/postgres/utils
+github.com/pganalyze/pg_query_go/v6/parser/include/protobuf
+github.com/pganalyze/pg_query_go/v6/parser/include/protobuf-c
+github.com/pganalyze/pg_query_go/v6/parser/include/xxhash
 # github.com/pmezard/go-difflib v1.0.0
 ## explicit
 github.com/pmezard/go-difflib/difflib
@@ -26,6 +67,35 @@ github.com/stretchr/testify/assert/yaml
 # github.com/zolstein/sync-map v0.1.0
 ## explicit; go 1.21
 github.com/zolstein/sync-map
+# google.golang.org/protobuf v1.36.10
+## explicit; go 1.23
+google.golang.org/protobuf/encoding/prototext
+google.golang.org/protobuf/encoding/protowire
+google.golang.org/protobuf/internal/descfmt
+google.golang.org/protobuf/internal/descopts
+google.golang.org/protobuf/internal/detrand
+google.golang.org/protobuf/internal/editiondefaults
+google.golang.org/protobuf/internal/encoding/defval
+google.golang.org/protobuf/internal/encoding/messageset
+google.golang.org/protobuf/internal/encoding/tag
+google.golang.org/protobuf/internal/encoding/text
+google.golang.org/protobuf/internal/errors
+google.golang.org/protobuf/internal/filedesc
+google.golang.org/protobuf/internal/filetype
+google.golang.org/protobuf/internal/flags
+google.golang.org/protobuf/internal/genid
+google.golang.org/protobuf/internal/impl
+google.golang.org/protobuf/internal/order
+google.golang.org/protobuf/internal/pragma
+google.golang.org/protobuf/internal/protolazy
+google.golang.org/protobuf/internal/set
+google.golang.org/protobuf/internal/strs
+google.golang.org/protobuf/internal/version
+google.golang.org/protobuf/proto
+google.golang.org/protobuf/reflect/protoreflect
+google.golang.org/protobuf/reflect/protoregistry
+google.golang.org/protobuf/runtime/protoiface
+google.golang.org/protobuf/runtime/protoimpl
 # gopkg.in/yaml.v3 v3.0.1
 ## explicit
 gopkg.in/yaml.v3

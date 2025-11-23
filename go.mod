@@ -6,8 +6,10 @@ require (
 	github.com/google/uuid v1.6.0
 	github.com/jackc/pgx/v5 v5.7.6
 	github.com/jordwest/mock-conn v0.0.0-20180617021051-4896c6bd1641
+	github.com/pganalyze/pg_query_go/v6 v6.1.0
 	github.com/stretchr/testify v1.11.1
 	github.com/zolstein/sync-map v0.1.0
+	google.golang.org/protobuf v1.36.10
 )
 
 require (
