@@ -41,7 +41,7 @@ func TestQueryHandler(t *testing.T) {
 			ProcessID: 123,
 			SecretKey: 123,
 		},
-		Logger:  DefaultLogger(),
+		// Logger:  DefaultLogger(),
 		Handler: &TestHandlerStruct{},
 		InternalBuffer: &InternalBuffer{
 			WriteBufferSize: 1024,
@@ -73,7 +73,7 @@ func TestParseHandler(t *testing.T) {
 			ProcessID: 123,
 			SecretKey: 123,
 		},
-		Logger:  DefaultLogger(),
+		// Logger:  DefaultLogger(),
 		Handler: &TestHandlerStruct{},
 		InternalBuffer: &InternalBuffer{
 			WriteBufferSize: 1024,
@@ -106,7 +106,7 @@ func TestBindHandler(t *testing.T) {
 			ProcessID: 123,
 			SecretKey: 123,
 		},
-		Logger:  DefaultLogger(),
+		// Logger:  DefaultLogger(),
 		Handler: &TestHandlerStruct{},
 		InternalBuffer: &InternalBuffer{
 			WriteBufferSize: 1024,

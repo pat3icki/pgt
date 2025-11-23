@@ -29,11 +29,12 @@ import (
 // TODO: FILE to *CONFIG using gob encoding
 // func ParseConfig(byt []byte, enc_type ) (*Config, error) {
 // 	return &Config{}, nil
-// }
+// }q	az
 
 type Config struct {
 	// AuthMethod       AuthMethod
 	ID               uuid.UUID
+	Debug            bool
 	Handler          Handler
 	RunStartUp       bool
 	BackendKey       BackendKeyData
@@ -49,7 +50,6 @@ type InternalBuffer struct {
 }
 
 type server struct {
-	// AuthMethod
 	id             uuid.UUID
 	mu             sync.RWMutex
 	ctx            context.Context
@@ -60,6 +60,7 @@ type server struct {
 	backendKeyData BackendKeyData
 	log            Logger
 	cancelRequest  chan struct{}
+	debug          bool
 
 	runStartUp        bool
 	curentEOF         uint8
@@ -325,4 +326,11 @@ func (s *server) handleMsg(msg pgproto3.FrontendMessage) error {
 		}
 	}
 	return err
+}
+
+func (s *server) isDebug(msg string, args ...any) {
+	if s.log == nil && s.debug == false {
+		return
+	}
+	s.log.Debug(msg, args...)
 }
